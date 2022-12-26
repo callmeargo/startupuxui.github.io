@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;1,300&family=Prosto+One&display=swap");
+body {
+  height: 4000px;
+}
+
+.bubble {
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  width: 500px;
+  height: 1500px;
+  z-index: -1;
+}
+.bubble .orange {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: rgb(255, 94, 0);
+  transform: translateY(-120px);
+}
+.bubble .yellow {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: rgb(255, 208, 0);
+  transform: translateX(150px) translateY(-50px);
+}
+
+#navbarNavAltMarkup {
+  font-family: "Montserrat";
+  color: black;
+}
+#navbarNavAltMarkup .navbar-nav a {
+  width: 110px;
+  text-align: center;
+  margin: 0px 2px;
+}
+#navbarNavAltMarkup .navbar-nav .community {
+  color: white;
+}
+#navbarNavAltMarkup .navbar-nav .login {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px 20px !important;
+  margin: 0px 5px;
+  color: white;
+}
+#navbarNavAltMarkup .navbar-nav .register {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px 20px !important;
+  margin: 0px 5px;
+}
+
+.hero {
+  margin-top: 10px;
+  min-height: 80vh;
+  z-index: 1 !important;
+}
+.hero .text h2 {
+  font-family: "Prosto One";
+  font-weight: 400;
+  font-size: 38px;
+}
+.hero .text h2 span {
+  font-family: "Montserrat";
+}
+.hero .text p {
+  font-size: 15px;
+  font-family: "Montserrat";
+}
+.hero .text .doubleButton p {
+  padding: 0;
+  margin: 0;
+}
+.hero .text .doubleButton .startCourse {
+  background-color: rgb(62, 62, 214);
+  width: 150px;
+  color: white;
+  padding: 15px;
+  border-radius: 40px;
+}
+.hero .text .doubleButton .watchButton {
+  width: 250px;
+  color: rgb(62, 62, 214);
+}
+.hero .text .doubleButton .watchButton .playBtn {
+  width: 60px !important;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid rgb(62, 62, 214);
+}
+.hero .text .doubleButton .watchButton .playBtn i {
+  margin: 0;
+  padding: 0;
+}
+.hero .heroImage {
+  position: relative;
+}
+.hero .heroImage .textTesty {
+  z-index: 1 !important;
+  width: 100%;
+  height: 100%;
+}
+.hero .heroImage .textTesty .student {
+  transform: translateX(-50px) translateY(-30px);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+  width: 200px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 15px;
+}
+.hero .heroImage .textTesty .student h2 {
+  font-family: "Prosto One";
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(62, 62, 214);
+  text-align: center;
+  margin: 0;
+}
+.hero .heroImage .textTesty .student p {
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat";
+  color: gray;
+  font-size: 15px;
+}
+.hero .heroImage .textTesty .twt {
+  background-color: white;
+  width: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  bottom: 0 !important;
+  position: absolute;
+  right: 0;
+  transform: translateX(30px) translateY(50px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.253);
+}
+.hero .heroImage .textTesty .twt .start i {
+  color: yellow;
+}
+.hero .heroImage .textTesty .twt p {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: grey;
+}
+.hero .heroImage .textTesty .twt .profile img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.hero .heroImage .textTesty .twt .profile span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero .heroImage .textTesty .twt .profile span p {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+.hero .heroImage .textTesty .twt .profile span p:nth-child(1) {
+  color: black;
+  font-family: "Prosto One";
+  font-weight: bolder;
+  font-size: 13px;
+}
+.hero .heroImage .image {
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.164);
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.courseHighlight {
+  padding: 100px 0px;
+  background-color: rgb(255, 235, 197);
+  margin-top: 100px;
+}
+.courseHighlight .container {
+  min-height: 80vh;
+}
+.courseHighlight .container .img img {
+  width: 80%;
+  border-radius: 50%;
+}
+.courseHighlight .container .des {
+  font-family: "Montserrat";
+}
+.courseHighlight .container .des h2 {
+  font-family: "Prosto One";
+}
+.courseHighlight .container .des .fitur a {
+  color: black;
+  text-decoration: none;
+}
+.courseHighlight .container .des .fitur a i {
+  color: rgb(62, 62, 214);
+  width: 25px;
+}
+.courseHighlight .container .des .chBtn {
+  margin-top: 50px;
+  font-weight: bold;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50px;
+  color: rgb(62, 62, 214);
+  border: 1px solid rgb(62, 62, 214);
+}
+
+.ourCourse {
+  margin-top: 100px;
+}
+.ourCourse .ocText {
+  margin-bottom: 50px;
+}
+.ourCourse .ocText h2 {
+  font-family: "Prosto One";
+}
+.ourCourse .ocText p {
+  width: 50%;
+}
+.ourCourse .ocImage {
+  height: 400px;
+  margin-top: 75px;
+  width: 80%;
+}
+.ourCourse .ocImage .imgs {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.ourCourse .ocImage .imgs img {
+  border-radius: 20px;
+  width: 50%;
+}
+.ourCourse .ocImage .ocPlayBtn {
+  width: 150px;
+  height: 200px;
+  transform: translateY(-41%);
+}
+.ourCourse .ocImage .ocPlayBtn p {
+  color: rgb(62, 62, 214);
+  font-weight: bolder;
+}
+.ourCourse .ocImage .ocPlayBtn .btnPlay {
+  background-color: rgb(62, 62, 214);
+  color: white;
+  border: 5px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.ourCourse .ocImage .ocPlayBtn .btnPlay::before {
+  content: " ";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background: transparent;
+  top: 81px;
+  left: 24.6px;
+  border-top-right-radius: 70px;
+  box-shadow: 2px -5px 0px 2px white;
+}
+.ourCourse .ocImage .ocPlayBtn .btnPlay::after {
+  content: " ";
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  background: transparent;
+  top: 81px;
+  right: 24.6px;
+  border-top-left-radius: 70px;
+  box-shadow: -2px -5px 0px 2px white;
+}
+.ourCourse .ocImage .ocPlayBtn .btnPlay i {
+  margin: 0;
+  padding: 0;
+}
+
+.howItWork {
+  background-color: rgb(43, 43, 43);
+  padding: 100px 0px;
+  margin-top: 100px;
+}
+.howItWork h2 {
+  color: white;
+  font-family: "Prosto One";
+}
+.howItWork .container .card {
+  background-color: transparent;
+  color: white;
+}
+.howItWork .container .card .card-body .d-flex {
+  background-color: rgb(62, 62, 214);
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.howItWork .container .card .card-body h5 {
+  font-family: "Prosto One";
+  font-size: 18px;
+}
+
+.gain {
+  margin-top: 150px;
+}
+.gain .gainText {
+  font-family: "Montserrat";
+}
+.gain .gainText h2 {
+  font-family: "Prosto One";
+}
+.gain .gainText ol li {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.learnMore {
+  margin-top: 150px;
+}
+.learnMore h2 {
+  font-weight: bolder;
+  font-family: "Prosto One";
+}
+.learnMore .view p {
+  text-align: center;
+  padding: 13px;
+  width: 150px;
+  border-radius: 50px;
+  border: 2px solid grey;
+  color: grey;
+}
+.learnMore .container .card .card-body h5 {
+  font-family: "Montserrat";
+}
+.learnMore .container .card .card-body .learnMoreImage img {
+  width: 100%;
+}
+
+.footer {
+  background-color: rgb(43, 43, 43);
+  color: white;
+  padding: 50px 0px;
+  margin-top: 100px;
+}
+.footer .container h2 {
+  font-family: "Prosto One";
+}
+.footer .container .GIText {
+  padding-top: 80px;
+}
+.footer .container .GIText ul .contact li a {
+  color: white;
+}
+.footer .container .GIText ul .sosmed li i {
+  font-size: 22px;
+}
+
+@media (max-width: 991.98px) {
+  #navbarNavAltMarkup {
+    padding: 10px;
+    margin-top: 10px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.164);
+  }
+  #navbarNavAltMarkup .navbar-nav a {
+    color: black;
+    text-align: start;
+  }
+  #navbarNavAltMarkup .navbar-nav .community {
+    color: black;
+  }
+  #navbarNavAltMarkup .navbar-nav .login {
+    background-color: black;
+    text-align: center;
+    border: none;
+    margin-bottom: 10px !important;
+  }
+  #navbarNavAltMarkup .navbar-nav .register {
+    text-align: center;
+    background-color: transparent;
+    border-color: black;
+  }
+  .hero .heroImage {
+    margin-top: 150px;
+  }
+  .hero .heroImage .textTesty .student {
+    transform: translateX(20px) translateY(-30px);
+  }
+  .hero .heroImage .textTesty .twt {
+    transform: translateX(-30px) translateY(50px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.253);
+  }
+  .hero .heroImage .image {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .howItWork {
+    margin-top: 0px;
+  }
+  .bubble {
+    display: flex;
+    align-items: end;
+    height: 700px;
+    transform: translateY(50%);
+  }
+  .ourCourse .ocImage .imgs img {
+    width: 85%;
+  }
+  .courseHighlight .container .des {
+    align-items: center;
+    margin-top: 30px;
+  }
+  .courseHighlight .container .des p {
+    width: 80%;
+    text-align: center;
+  }
+  .gain {
+    text-align: center;
+  }
+  .gain .gainImage {
+    margin-top: 100px;
+  }
+  .footer .container .GIText ul .contact {
+    padding: 30px 0px;
+  }
+  .footer .container .GIText ul .contact li a {
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
